@@ -16,11 +16,11 @@ git clone [https://github.com/Ruiyyyyy/person_msgs.git](https://github.com/Ruiyy
 cd ~/ros2_ws
 colcon build
 source install/setup.bash
-```
+
 ##実行方法
 配信側: ros2 run mypkg talker
 受信側: ros2 run mypkg listener
-```
+
 ## 必要な環境
 * Linux環境
 * Python 3.7+
