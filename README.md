@@ -19,8 +19,8 @@ source install/setup.bash
 ```
 
 ##実行方法
-配信側: ros2 run mypkg talker
-受信側: ros2 run mypkg listener
+* 配信側: ros2 run mypkg talker
+* 受信側: ros2 run mypkg listener
 
 ## 必要な環境
 * Linux環境
