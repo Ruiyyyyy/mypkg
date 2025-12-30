@@ -1,0 +1,7 @@
+{
+  "package_name": "person_msgs",
+  "non_idl_tuples": [
+    "/home/rui810/ros2_ws/src/person_msgs:msg/Person.msg",
+    "/home/rui810/ros2_ws/src/person_msgs:srv/Query.srv"
+  ]
+}

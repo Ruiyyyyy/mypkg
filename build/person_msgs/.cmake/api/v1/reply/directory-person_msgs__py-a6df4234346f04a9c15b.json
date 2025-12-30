@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "person_msgs__py",
+		"source" : "/home/rui810/ros2_ws/src/build/person_msgs/person_msgs__py"
+	}
+}

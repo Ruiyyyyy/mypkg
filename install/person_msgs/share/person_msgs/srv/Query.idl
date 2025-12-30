@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from person_msgs/srv/Query.srv
+// generated code does not contain a copyright notice
+
+
+module person_msgs {
+  module srv {
+    struct Query_Request {
+      string name;
+    };
+    struct Query_Response {
+      uint8 age;
+    };
+  };
+};

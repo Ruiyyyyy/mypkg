@@ -15,7 +15,7 @@ cd ~/ros2_ws/src
 git clone [https://github.com/Ruiyyyyy/mypkg.git](https://github.com/Ruiyyyyy/mypkg.git)
 git clone [https://github.com/Ruiyyyyy/person_msgs.git](https://github.com/Ruiyyyyy/person_msgs.git)
 cd ~/ros2_ws
-colcon build
+colcon build --cmake-args -DPYTHON_EXECUTABLE=/usr/bin/python3.10
 source install/setup.bash
 ```
 
