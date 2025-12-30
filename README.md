@@ -6,8 +6,9 @@
 * talker :今日の天気と降水確率っをランダムに設定し配信します。
 * listener :受信した天気情報をもとに、「傘が必要か」などのアドバイスをログに表示します。
 ## インストール方法
-```bash
 以下のコマンドをターミナルで実行して、ワークスペースにクローンしビルドしてください。
+
+```bash
 
 cd ~/ros2_ws/src
 git clone [https://github.com/Ruiyyyyy/mypkg.git](https://github.com/Ruiyyyyy/mypkg.git)
@@ -15,7 +16,7 @@ git clone [https://github.com/Ruiyyyyy/person_msgs.git](https://github.com/Ruiyy
 cd ~/ros2_ws
 colcon build
 source install/setup.bash
-
+```
 ##実行方法
 配信側: ros2 run mypkg talker
 受信側: ros2 run mypkg listener
