@@ -6,11 +6,10 @@
   <description>ロボシス講義用</description>
   <maintainer email="s24c1081ef@s.chibakoudai.jp">rui810</maintainer>
   <license>BSD-3-Clause</license>
-   <exec_depend>rclpy</exec_depend>            
-  <exec_depend>std_msgs</exec_depend>       
 
   <depend>rclpy</depend>
   <depend>std_msgs</depend>
+  <depend>person_msgs</depend>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>
