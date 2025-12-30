@@ -1,6 +1,6 @@
 import rclpy
-from rclpy.node import Node
 from person_msgs.msg import Person
+from rclpy.node import Node
 
 
 class AlertListener(Node):
@@ -10,13 +10,13 @@ class AlertListener(Node):
         self.sub = self.create_subscription(Person, 'sensor_data', self.cb, 10)
 
     def cb(self, msg):
-        status = "異常なし"
+        status = '異常なし'
         if msg.age > 80:
-            status = "🚨 警告！すぐに確認してください！"
+            status = '🚨 警告！'
         elif msg.age > 40:
-            status = "⚠️ 注意：少し様子を見てください"
+            status = '⚠️ 注意'
 
-        self.get_logger().info(f'通知: [{msg.name}] 状態: {status} (レベル:{msg.age})')
+        self.get_logger().info(f'通知: [{msg.name}] 状態: {status} ({msg.age})')
 
 
 def main():
