@@ -2,22 +2,22 @@ import rclpy
 from rclpy.node import Node
 from person_msgs.msg import Person
 
-class WeatherListener(Node):
+class AlertListener(Node):
     def __init__(self):
-        super().__init__('weather_listener')
-        self.sub = self.create_subscription(Person, 'weather_info', self.cb, 10)
+        super().__init__('alert_listener')
+        self.sub = self.create_subscription(Person, 'sensor_data', self.cb, 10)
 
     def cb(self, msg):
-        advice = "手ぶらで大丈夫です！"
-        if "雨" in msg.name or msg.age >= 50:
-            advice = "傘を持っていきましょう！"
-        elif "雪" in msg.name:
-            advice = "滑らない靴を履きましょう！"
+        status = "異常なし"
+        if msg.age > 80:
+            status = "🚨 警告！すぐに確認してください！"
+        elif msg.age > 40:
+            status = "⚠️ 注意：少し様子を見てください"
             
-        self.get_logger().info(f'予報を受信: {msg.name}({msg.age}%) -> アドバイス: {advice}')
+        self.get_logger().info(f'通知: [{msg.name}] 状態: {status} (レベル:{msg.age})')
 
 def main():
     rclpy.init()
-    node = WeatherListener()
+    node = AlertListener()
     rclpy.spin(node)
     rclpy.shutdown()
