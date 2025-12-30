@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\"person_msgs\" -Dperson_msgs__rosidl_typesupport_introspection_c__pyext_EXPORTS
 
-C_INCLUDES = -I/home/rui810/ros2_ws/src/build/person_msgs/rosidl_generator_c -I/home/rui810/ros2_ws/src/build/person_msgs/rosidl_generator_py -I/home/rui810/anaconda3/include/python3.13 -I/opt/ros/humble/include/rmw -I/home/rui810/anaconda3/lib/python3.13/site-packages/numpy/_core/include -I/home/rui810/ros2_ws/src/build/person_msgs/rosidl_typesupport_introspection_c -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rosidl_typesupport_c -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_c
+C_INCLUDES = -I/home/rui810/ros2_ws/src/build/person_msgs/rosidl_generator_c -I/home/rui810/ros2_ws/src/build/person_msgs/rosidl_generator_py -I/home/rui810/anaconda3/include/python3.13 -I/opt/ros/humble/include/rmw -I/usr/lib/python3/dist-packages/numpy/core/include -I/home/rui810/ros2_ws/src/build/person_msgs/rosidl_typesupport_introspection_c -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rosidl_typesupport_c -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_c
 
 C_FLAGS = -fPIC -Wall -Wextra
 

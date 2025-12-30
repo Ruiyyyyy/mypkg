@@ -25,7 +25,7 @@ source install/setup.bash
 
 ## 必要な環境
 * Linux環境
-* Python 3.7+
+* Python 3.10.x
 * ROS2 Humble
 
 ## ライセンス

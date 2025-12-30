@@ -54,7 +54,7 @@ endif()
 add_library(person_msgs::person_msgs__rosidl_generator_py SHARED IMPORTED)
 
 set_target_properties(person_msgs::person_msgs__rosidl_generator_py PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "/home/rui810/anaconda3/lib/python3.13/site-packages/numpy/_core/include"
+  INTERFACE_INCLUDE_DIRECTORIES "/usr/lib/python3/dist-packages/numpy/core/include"
   INTERFACE_LINK_LIBRARIES "person_msgs::person_msgs__rosidl_generator_c;/home/rui810/anaconda3/lib/libpython3.13.so;person_msgs::person_msgs__rosidl_typesupport_c"
 )
 

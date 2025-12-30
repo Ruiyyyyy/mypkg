@@ -232,21 +232,16 @@ CMakeFiles/person_msgs__rosidl_generator_py.dir/rosidl_generator_py/person_msgs/
  /home/rui810/anaconda3/include/python3.13/cpython/pyfpe.h \
  /home/rui810/anaconda3/include/python3.13/cpython/tracemalloc.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
- /home/rui810/anaconda3/lib/python3.13/site-packages/numpy/_core/include/numpy/ndarrayobject.h \
- /home/rui810/anaconda3/lib/python3.13/site-packages/numpy/_core/include/numpy/ndarraytypes.h \
- /home/rui810/anaconda3/lib/python3.13/site-packages/numpy/_core/include/numpy/npy_common.h \
- /home/rui810/anaconda3/lib/python3.13/site-packages/numpy/_core/include/numpy/numpyconfig.h \
- /home/rui810/anaconda3/lib/python3.13/site-packages/numpy/_core/include/numpy/_numpyconfig.h \
- /usr/include/complex.h /usr/include/x86_64-linux-gnu/bits/mathdef.h \
- /usr/include/x86_64-linux-gnu/bits/cmathcalls.h \
- /home/rui810/anaconda3/lib/python3.13/site-packages/numpy/_core/include/numpy/npy_endian.h \
- /home/rui810/anaconda3/lib/python3.13/site-packages/numpy/_core/include/numpy/npy_cpu.h \
- /home/rui810/anaconda3/lib/python3.13/site-packages/numpy/_core/include/numpy/utils.h \
- /home/rui810/anaconda3/lib/python3.13/site-packages/numpy/_core/include/numpy/_neighborhood_iterator_imp.h \
- /home/rui810/anaconda3/lib/python3.13/site-packages/numpy/_core/include/numpy/dtype_api.h \
- /home/rui810/anaconda3/lib/python3.13/site-packages/numpy/_core/include/numpy/__multiarray_api.h \
- /home/rui810/anaconda3/lib/python3.13/site-packages/numpy/_core/include/numpy/_public_dtype_api_table.h \
- /home/rui810/anaconda3/lib/python3.13/site-packages/numpy/_core/include/numpy/npy_2_compat.h \
+ /usr/lib/python3/dist-packages/numpy/core/include/numpy/ndarrayobject.h \
+ /usr/lib/python3/dist-packages/numpy/core/include/numpy/ndarraytypes.h \
+ /usr/lib/python3/dist-packages/numpy/core/include/numpy/npy_common.h \
+ /usr/lib/python3/dist-packages/numpy/core/include/numpy/numpyconfig.h \
+ /usr/lib/python3/dist-packages/numpy/core/include/numpy/_numpyconfig.h \
+ /usr/lib/python3/dist-packages/numpy/core/include/numpy/npy_endian.h \
+ /usr/lib/python3/dist-packages/numpy/core/include/numpy/npy_cpu.h \
+ /usr/lib/python3/dist-packages/numpy/core/include/numpy/utils.h \
+ /usr/lib/python3/dist-packages/numpy/core/include/numpy/_neighborhood_iterator_imp.h \
+ /usr/lib/python3/dist-packages/numpy/core/include/numpy/__multiarray_api.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
  /home/rui810/ros2_ws/src/build/person_msgs/rosidl_generator_c/person_msgs/srv/detail/query__struct.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \

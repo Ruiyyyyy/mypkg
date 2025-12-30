@@ -1,0 +1,234 @@
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found ament_cmake_cppcheck: 0.12.14 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+-- Found ament_cmake_cpplint: 0.12.14 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+-- Found ament_cmake_uncrustify: 0.12.14 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: /usr/bin/python3.10 (found suitable version "3.10.12", minimum required is "3.6") 
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3.10
+-- Using PYTHON_INCLUDE_DIRS: /home/rui810/anaconda3/include/python3.13
+-- Using PYTHON_LIBRARIES: /home/rui810/anaconda3/lib/libpython3.13.so
+-- Using numpy include directory: /usr/lib/python3/dist-packages/numpy/core/include
+-- Found ament_cmake_flake8: 0.12.14 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+-- Found ament_cmake_pep257: 0.12.14 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/rui810/ros2_ws/src/build/person_msgs
+[35m[1mConsolidate compiler generated dependencies of target person_msgs__rosidl_generator_c[0m
+[  2%] Built target person_msgs__cpp
+[ 12%] Built target person_msgs__rosidl_generator_c
+[35m[1mConsolidate compiler generated dependencies of target person_msgs__rosidl_typesupport_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target person_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[ 12%] Built target ament_cmake_python_copy_person_msgs
+[35m[1mConsolidate compiler generated dependencies of target person_msgs__rosidl_typesupport_introspection_cpp[0m
+[ 23%] Built target person_msgs__rosidl_typesupport_cpp
+[35m[1mConsolidate compiler generated dependencies of target person_msgs__rosidl_typesupport_fastrtps_c[0m
+[35m[1mConsolidate compiler generated dependencies of target person_msgs__rosidl_typesupport_introspection_c[0m
+[35m[1mConsolidate compiler generated dependencies of target person_msgs__rosidl_typesupport_c[0m
+[ 33%] Built target person_msgs__rosidl_typesupport_introspection_cpp
+[ 43%] Built target person_msgs__rosidl_typesupport_fastrtps_cpp
+[ 53%] Built target person_msgs__rosidl_typesupport_c
+[ 64%] Built target person_msgs__rosidl_typesupport_introspection_c
+[ 74%] Built target person_msgs__rosidl_typesupport_fastrtps_c
+[ 74%] Built target person_msgs
+[ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+running egg_info
+writing person_msgs.egg-info/PKG-INFO
+writing dependency_links to person_msgs.egg-info/dependency_links.txt
+writing top-level names to person_msgs.egg-info/top_level.txt
+reading manifest file 'person_msgs.egg-info/SOURCES.txt'
+writing manifest file 'person_msgs.egg-info/SOURCES.txt'
+[ 76%] Built target ament_cmake_python_build_person_msgs_egg
+[ 76%] Built target person_msgs__py
+[35m[1mConsolidate compiler generated dependencies of target person_msgs__rosidl_generator_py[0m
+[ 79%] [32mBuilding C object CMakeFiles/person_msgs__rosidl_generator_py.dir/rosidl_generator_py/person_msgs/msg/_person_s.c.o[0m
+[ 82%] [32mBuilding C object CMakeFiles/person_msgs__rosidl_generator_py.dir/rosidl_generator_py/person_msgs/srv/_query_s.c.o[0m
+[ 84%] [32m[1mLinking C shared library rosidl_generator_py/person_msgs/libperson_msgs__rosidl_generator_py.so[0m
+[ 84%] Built target person_msgs__rosidl_generator_py
+[35m[1mConsolidate compiler generated dependencies of target person_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target person_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target person_msgs__rosidl_typesupport_c__pyext[0m
+[ 87%] [32mBuilding C object CMakeFiles/person_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/person_msgs/_person_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 89%] [32mBuilding C object CMakeFiles/person_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/person_msgs/_person_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[ 92%] [32mBuilding C object CMakeFiles/person_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/person_msgs/_person_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 94%] [32m[1mLinking C shared library rosidl_generator_py/person_msgs/person_msgs_s__rosidl_typesupport_introspection_c.cpython-313-x86_64-linux-gnu.so[0m
+[ 97%] [32m[1mLinking C shared library rosidl_generator_py/person_msgs/person_msgs_s__rosidl_typesupport_c.cpython-313-x86_64-linux-gnu.so[0m
+[100%] [32m[1mLinking C shared library rosidl_generator_py/person_msgs/person_msgs_s__rosidl_typesupport_fastrtps_c.cpython-313-x86_64-linux-gnu.so[0m
+[100%] Built target person_msgs__rosidl_typesupport_introspection_c__pyext
+[100%] Built target person_msgs__rosidl_typesupport_c__pyext
+[100%] Built target person_msgs__rosidl_typesupport_fastrtps_c__pyext
+-- Install configuration: ""
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/share/ament_index/resource_index/rosidl_interfaces/person_msgs
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/include/person_msgs/person_msgs
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/include/person_msgs/person_msgs/srv
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/include/person_msgs/person_msgs/srv/detail
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/include/person_msgs/person_msgs/srv/detail/query__functions.c
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/include/person_msgs/person_msgs/srv/detail/query__struct.h
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/include/person_msgs/person_msgs/srv/detail/query__functions.h
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/include/person_msgs/person_msgs/srv/detail/query__type_support.h
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/include/person_msgs/person_msgs/srv/query.h
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/include/person_msgs/person_msgs/msg
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/include/person_msgs/person_msgs/msg/detail
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/include/person_msgs/person_msgs/msg/detail/person__functions.c
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/include/person_msgs/person_msgs/msg/detail/person__type_support.h
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/include/person_msgs/person_msgs/msg/detail/person__struct.h
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/include/person_msgs/person_msgs/msg/detail/person__functions.h
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/include/person_msgs/person_msgs/msg/rosidl_generator_c__visibility_control.h
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/include/person_msgs/person_msgs/msg/person.h
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/share/person_msgs/environment/library_path.sh
+-- Installing: /home/rui810/ros2_ws/src/install/person_msgs/share/person_msgs/environment/library_path.dsv
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/lib/libperson_msgs__rosidl_generator_c.so
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/include/person_msgs/person_msgs
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/include/person_msgs/person_msgs/srv
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/include/person_msgs/person_msgs/srv/detail
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/include/person_msgs/person_msgs/srv/detail/query__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/include/person_msgs/person_msgs/msg
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/include/person_msgs/person_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/include/person_msgs/person_msgs/msg/detail
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/include/person_msgs/person_msgs/msg/detail/person__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/lib/libperson_msgs__rosidl_typesupport_fastrtps_c.so
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/include/person_msgs/person_msgs
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/include/person_msgs/person_msgs/srv
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/include/person_msgs/person_msgs/srv/detail
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/include/person_msgs/person_msgs/srv/detail/query__type_support.c
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/include/person_msgs/person_msgs/srv/detail/query__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/include/person_msgs/person_msgs/msg
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/include/person_msgs/person_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/include/person_msgs/person_msgs/msg/detail
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/include/person_msgs/person_msgs/msg/detail/person__type_support.c
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/include/person_msgs/person_msgs/msg/detail/person__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/lib/libperson_msgs__rosidl_typesupport_introspection_c.so
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/lib/libperson_msgs__rosidl_typesupport_c.so
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/include/person_msgs/person_msgs
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/include/person_msgs/person_msgs/srv
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/include/person_msgs/person_msgs/srv/query.hpp
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/include/person_msgs/person_msgs/srv/detail
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/include/person_msgs/person_msgs/srv/detail/query__type_support.hpp
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/include/person_msgs/person_msgs/srv/detail/query__struct.hpp
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/include/person_msgs/person_msgs/srv/detail/query__builder.hpp
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/include/person_msgs/person_msgs/srv/detail/query__traits.hpp
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/include/person_msgs/person_msgs/msg
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/include/person_msgs/person_msgs/msg/detail
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/include/person_msgs/person_msgs/msg/detail/person__type_support.hpp
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/include/person_msgs/person_msgs/msg/detail/person__traits.hpp
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/include/person_msgs/person_msgs/msg/detail/person__struct.hpp
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/include/person_msgs/person_msgs/msg/detail/person__builder.hpp
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/include/person_msgs/person_msgs/msg/person.hpp
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/include/person_msgs/person_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/include/person_msgs/person_msgs
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/include/person_msgs/person_msgs/srv
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/include/person_msgs/person_msgs/srv/detail
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/include/person_msgs/person_msgs/srv/detail/dds_fastrtps
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/include/person_msgs/person_msgs/srv/detail/query__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/include/person_msgs/person_msgs/msg
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/include/person_msgs/person_msgs/msg/detail
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/include/person_msgs/person_msgs/msg/detail/dds_fastrtps
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/include/person_msgs/person_msgs/msg/detail/person__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/include/person_msgs/person_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/lib/libperson_msgs__rosidl_typesupport_fastrtps_cpp.so
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/include/person_msgs/person_msgs
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/include/person_msgs/person_msgs/srv
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/include/person_msgs/person_msgs/srv/detail
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/include/person_msgs/person_msgs/srv/detail/query__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/include/person_msgs/person_msgs/srv/detail/query__type_support.cpp
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/include/person_msgs/person_msgs/msg
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/include/person_msgs/person_msgs/msg/detail
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/include/person_msgs/person_msgs/msg/detail/person__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/include/person_msgs/person_msgs/msg/detail/person__type_support.cpp
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/lib/libperson_msgs__rosidl_typesupport_introspection_cpp.so
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/lib/libperson_msgs__rosidl_typesupport_cpp.so
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/share/person_msgs/environment/pythonpath.sh
+-- Installing: /home/rui810/ros2_ws/src/install/person_msgs/share/person_msgs/environment/pythonpath.dsv
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/lib/python3.13/site-packages/person_msgs-0.0.0-py3.13.egg-info
+-- Installing: /home/rui810/ros2_ws/src/install/person_msgs/lib/python3.13/site-packages/person_msgs-0.0.0-py3.13.egg-info/top_level.txt
+-- Installing: /home/rui810/ros2_ws/src/install/person_msgs/lib/python3.13/site-packages/person_msgs-0.0.0-py3.13.egg-info/PKG-INFO
+-- Installing: /home/rui810/ros2_ws/src/install/person_msgs/lib/python3.13/site-packages/person_msgs-0.0.0-py3.13.egg-info/dependency_links.txt
+-- Installing: /home/rui810/ros2_ws/src/install/person_msgs/lib/python3.13/site-packages/person_msgs-0.0.0-py3.13.egg-info/SOURCES.txt
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/lib/python3.13/site-packages/person_msgs
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/lib/python3.13/site-packages/person_msgs/srv
+-- Installing: /home/rui810/ros2_ws/src/install/person_msgs/lib/python3.13/site-packages/person_msgs/srv/_query_s.c
+-- Installing: /home/rui810/ros2_ws/src/install/person_msgs/lib/python3.13/site-packages/person_msgs/srv/_query.py
+-- Installing: /home/rui810/ros2_ws/src/install/person_msgs/lib/python3.13/site-packages/person_msgs/srv/__init__.py
+-- Installing: /home/rui810/ros2_ws/src/install/person_msgs/lib/python3.13/site-packages/person_msgs/libperson_msgs__rosidl_generator_py.so
+-- Installing: /home/rui810/ros2_ws/src/install/person_msgs/lib/python3.13/site-packages/person_msgs/_person_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Installing: /home/rui810/ros2_ws/src/install/person_msgs/lib/python3.13/site-packages/person_msgs/person_msgs_s__rosidl_typesupport_c.cpython-313-x86_64-linux-gnu.so
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/lib/python3.13/site-packages/person_msgs/msg
+-- Installing: /home/rui810/ros2_ws/src/install/person_msgs/lib/python3.13/site-packages/person_msgs/msg/__init__.py
+-- Installing: /home/rui810/ros2_ws/src/install/person_msgs/lib/python3.13/site-packages/person_msgs/msg/_person_s.c
+-- Installing: /home/rui810/ros2_ws/src/install/person_msgs/lib/python3.13/site-packages/person_msgs/msg/_person.py
+-- Installing: /home/rui810/ros2_ws/src/install/person_msgs/lib/python3.13/site-packages/person_msgs/person_msgs_s__rosidl_typesupport_introspection_c.cpython-313-x86_64-linux-gnu.so
+-- Installing: /home/rui810/ros2_ws/src/install/person_msgs/lib/python3.13/site-packages/person_msgs/person_msgs_s__rosidl_typesupport_fastrtps_c.cpython-313-x86_64-linux-gnu.so
+-- Installing: /home/rui810/ros2_ws/src/install/person_msgs/lib/python3.13/site-packages/person_msgs/_person_msgs_s.ep.rosidl_typesupport_introspection_c.c
+-- Installing: /home/rui810/ros2_ws/src/install/person_msgs/lib/python3.13/site-packages/person_msgs/_person_msgs_s.ep.rosidl_typesupport_c.c
+-- Installing: /home/rui810/ros2_ws/src/install/person_msgs/lib/python3.13/site-packages/person_msgs/__init__.py
+Listing '/home/rui810/ros2_ws/src/install/person_msgs/lib/python3.13/site-packages/person_msgs'...
+Compiling '/home/rui810/ros2_ws/src/install/person_msgs/lib/python3.13/site-packages/person_msgs/__init__.py'...
+Listing '/home/rui810/ros2_ws/src/install/person_msgs/lib/python3.13/site-packages/person_msgs/msg'...
+Compiling '/home/rui810/ros2_ws/src/install/person_msgs/lib/python3.13/site-packages/person_msgs/msg/__init__.py'...
+Compiling '/home/rui810/ros2_ws/src/install/person_msgs/lib/python3.13/site-packages/person_msgs/msg/_person.py'...
+Listing '/home/rui810/ros2_ws/src/install/person_msgs/lib/python3.13/site-packages/person_msgs/srv'...
+Compiling '/home/rui810/ros2_ws/src/install/person_msgs/lib/python3.13/site-packages/person_msgs/srv/__init__.py'...
+Compiling '/home/rui810/ros2_ws/src/install/person_msgs/lib/python3.13/site-packages/person_msgs/srv/_query.py'...
+-- Installing: /home/rui810/ros2_ws/src/install/person_msgs/lib/python3.13/site-packages/person_msgs/person_msgs_s__rosidl_typesupport_fastrtps_c.cpython-313-x86_64-linux-gnu.so
+-- Set runtime path of "/home/rui810/ros2_ws/src/install/person_msgs/lib/python3.13/site-packages/person_msgs/person_msgs_s__rosidl_typesupport_fastrtps_c.cpython-313-x86_64-linux-gnu.so" to ""
+-- Installing: /home/rui810/ros2_ws/src/install/person_msgs/lib/python3.13/site-packages/person_msgs/person_msgs_s__rosidl_typesupport_introspection_c.cpython-313-x86_64-linux-gnu.so
+-- Set runtime path of "/home/rui810/ros2_ws/src/install/person_msgs/lib/python3.13/site-packages/person_msgs/person_msgs_s__rosidl_typesupport_introspection_c.cpython-313-x86_64-linux-gnu.so" to ""
+-- Installing: /home/rui810/ros2_ws/src/install/person_msgs/lib/python3.13/site-packages/person_msgs/person_msgs_s__rosidl_typesupport_c.cpython-313-x86_64-linux-gnu.so
+-- Set runtime path of "/home/rui810/ros2_ws/src/install/person_msgs/lib/python3.13/site-packages/person_msgs/person_msgs_s__rosidl_typesupport_c.cpython-313-x86_64-linux-gnu.so" to ""
+-- Installing: /home/rui810/ros2_ws/src/install/person_msgs/lib/libperson_msgs__rosidl_generator_py.so
+-- Set runtime path of "/home/rui810/ros2_ws/src/install/person_msgs/lib/libperson_msgs__rosidl_generator_py.so" to ""
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/share/person_msgs/msg/Person.idl
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/share/person_msgs/srv/Query.idl
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/share/person_msgs/msg/Person.msg
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/share/person_msgs/srv/Query.srv
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/share/person_msgs/srv/Query_Request.msg
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/share/person_msgs/srv/Query_Response.msg
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/share/ament_index/resource_index/package_run_dependencies/person_msgs
+-- Installing: /home/rui810/ros2_ws/src/install/person_msgs/share/ament_index/resource_index/parent_prefix_path/person_msgs
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/share/person_msgs/environment/ament_prefix_path.sh
+-- Installing: /home/rui810/ros2_ws/src/install/person_msgs/share/person_msgs/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/share/person_msgs/environment/path.sh
+-- Installing: /home/rui810/ros2_ws/src/install/person_msgs/share/person_msgs/environment/path.dsv
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/share/person_msgs/local_setup.bash
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/share/person_msgs/local_setup.sh
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/share/person_msgs/local_setup.zsh
+-- Installing: /home/rui810/ros2_ws/src/install/person_msgs/share/person_msgs/local_setup.dsv
+-- Installing: /home/rui810/ros2_ws/src/install/person_msgs/share/person_msgs/package.dsv
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/share/ament_index/resource_index/packages/person_msgs
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/share/person_msgs/cmake/export_person_msgs__rosidl_generator_cExport.cmake
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/share/person_msgs/cmake/export_person_msgs__rosidl_generator_cExport-noconfig.cmake
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/share/person_msgs/cmake/export_person_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/share/person_msgs/cmake/export_person_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/share/person_msgs/cmake/person_msgs__rosidl_typesupport_introspection_cExport.cmake
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/share/person_msgs/cmake/person_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/share/person_msgs/cmake/person_msgs__rosidl_typesupport_cExport.cmake
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/share/person_msgs/cmake/person_msgs__rosidl_typesupport_cExport-noconfig.cmake
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/share/person_msgs/cmake/export_person_msgs__rosidl_generator_cppExport.cmake
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/share/person_msgs/cmake/export_person_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/share/person_msgs/cmake/export_person_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/share/person_msgs/cmake/person_msgs__rosidl_typesupport_introspection_cppExport.cmake
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/share/person_msgs/cmake/person_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/share/person_msgs/cmake/person_msgs__rosidl_typesupport_cppExport.cmake
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/share/person_msgs/cmake/person_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+-- Old export file "/home/rui810/ros2_ws/src/install/person_msgs/share/person_msgs/cmake/export_person_msgs__rosidl_generator_pyExport.cmake" will be replaced.  Removing files [/home/rui810/ros2_ws/src/install/person_msgs/share/person_msgs/cmake/export_person_msgs__rosidl_generator_pyExport-noconfig.cmake].
+-- Installing: /home/rui810/ros2_ws/src/install/person_msgs/share/person_msgs/cmake/export_person_msgs__rosidl_generator_pyExport.cmake
+-- Installing: /home/rui810/ros2_ws/src/install/person_msgs/share/person_msgs/cmake/export_person_msgs__rosidl_generator_pyExport-noconfig.cmake
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/share/person_msgs/cmake/rosidl_cmake-extras.cmake
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/share/person_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/share/person_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/share/person_msgs/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/share/person_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/share/person_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/share/person_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/share/person_msgs/cmake/person_msgsConfig.cmake
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/share/person_msgs/cmake/person_msgsConfig-version.cmake
+-- Up-to-date: /home/rui810/ros2_ws/src/install/person_msgs/share/person_msgs/package.xml

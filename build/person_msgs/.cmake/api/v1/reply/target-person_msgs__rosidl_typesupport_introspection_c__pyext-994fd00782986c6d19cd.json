@@ -241,7 +241,7 @@
 				},
 				{
 					"backtrace" : 7,
-					"path" : "/home/rui810/anaconda3/lib/python3.13/site-packages/numpy/_core/include"
+					"path" : "/usr/lib/python3/dist-packages/numpy/core/include"
 				},
 				{
 					"backtrace" : 7,
