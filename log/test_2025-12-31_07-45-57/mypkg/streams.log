@@ -1,0 +1,22 @@
+[0.642s] Invoking command in '/home/rui810/ros2_ws/src/mypkg': AMENT_PREFIX_PATH=/home/rui810/ros2_ws/src/install/mypkg:/home/rui810/ros2_ws/install/mypkg:/home/rui810/ros2_ws/install/person_msgs:/home/rui810/ros2_ws/src/install/person_msgs:/opt/ros/humble CMAKE_PREFIX_PATH=/home/rui810/ros2_ws/src/install/person_msgs:/home/rui810/ros2_ws/install/person_msgs CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/rui810/ros2_ws/src/install/person_msgs/lib:/home/rui810/ros2_ws/install/person_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTEST_ADDOPTS=--tb=short --junit-xml=/home/rui810/ros2_ws/src/build/mypkg/pytest.xml --junit-prefix=mypkg -o cache_dir=/home/rui810/ros2_ws/src/build/mypkg/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/rui810/ros2_ws/src/install/mypkg/lib/python3.10/site-packages:/home/rui810/ros2_ws/install/person_msgs/lib/python3.13/site-packages:/home/rui810/ros2_ws/install/mypkg/lib/python3.10/site-packages:/home/rui810/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages:/home/rui810/ros2_ws/src/install/person_msgs/lib/python3.13/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -m pytest
+[1.559s] [1m============================= test session starts ==============================[0m
+[1.559s] platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0
+[1.568s] cachedir: /home/rui810/ros2_ws/src/build/mypkg/.pytest_cache
+[1.569s] rootdir: /home/rui810/ros2_ws/src/mypkg
+[1.569s] plugins: launch-testing-1.0.13, ament-copyright-0.12.14, ament-pep257-0.12.14, ament-flake8-0.12.14, ament-xmllint-0.12.14, ament-lint-0.12.14, launch-testing-ros-0.19.13, cov-3.0.0, colcon-core-0.20.1
+[1.805s] [1mcollecting ... [0m[1m
+[1.805s] collected 3 items                                                              [0m
+[1.805s] 
+[1.817s] test/test_copyright.py [33ms[0m[32m                                                 [ 33%][0m
+[2.036s] test/test_flake8.py [32m.[0m[33m                                                    [ 66%][0m
+[2.109s] test/test_pep257.py [32m.[0m[33m                                                    [100%][0m
+[2.110s] ----- generated xml file: /home/rui810/ros2_ws/src/build/mypkg/pytest.xml ------
+[2.111s] 
+[2.111s] [33m=============================== warnings summary ===============================[0m
+[2.111s] test/test_flake8.py::test_flake8
+[2.112s] test/test_flake8.py::test_flake8
+[2.112s]   Warning: SelectableGroups dict interface is deprecated. Use select.
+[2.112s] 
+[2.112s] -- Docs: https://docs.pytest.org/en/stable/warnings.html
+[2.112s] [33m=================== [32m2 passed[0m, [33m[1m1 skipped[0m, [33m[1m2 warnings[0m[33m in 0.55s[0m[33m ===================[0m
+[2.291s] Invoked command in '/home/rui810/ros2_ws/src/mypkg' returned '0': AMENT_PREFIX_PATH=/home/rui810/ros2_ws/src/install/mypkg:/home/rui810/ros2_ws/install/mypkg:/home/rui810/ros2_ws/install/person_msgs:/home/rui810/ros2_ws/src/install/person_msgs:/opt/ros/humble CMAKE_PREFIX_PATH=/home/rui810/ros2_ws/src/install/person_msgs:/home/rui810/ros2_ws/install/person_msgs CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/rui810/ros2_ws/src/install/person_msgs/lib:/home/rui810/ros2_ws/install/person_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTEST_ADDOPTS=--tb=short --junit-xml=/home/rui810/ros2_ws/src/build/mypkg/pytest.xml --junit-prefix=mypkg -o cache_dir=/home/rui810/ros2_ws/src/build/mypkg/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/rui810/ros2_ws/src/install/mypkg/lib/python3.10/site-packages:/home/rui810/ros2_ws/install/person_msgs/lib/python3.13/site-packages:/home/rui810/ros2_ws/install/mypkg/lib/python3.10/site-packages:/home/rui810/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages:/home/rui810/ros2_ws/src/install/person_msgs/lib/python3.13/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -m pytest
