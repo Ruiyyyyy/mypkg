@@ -4,6 +4,7 @@ from person_msgs.msg import Person
 
 
 class AlertListener(Node):
+
     def __init__(self):
         super().__init__('alert_listener')
         self.sub = self.create_subscription(Person, 'sensor_data', self.cb, 10)
@@ -13,7 +14,8 @@ class AlertListener(Node):
         if msg.age > 80:
             status = "🚨 警告！すぐに確認してください！"
         elif msg.age > 40:
-            status = "⚠️ 注意：少し様子を見てください"           
+            status = "⚠️ 注意：少し様子を見てください"
+
         self.get_logger().info(f'通知: [{msg.name}] 状態: {status} (レベル:{msg.age})')
 
 

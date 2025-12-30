@@ -13,5 +13,5 @@ import launch.actions
  15         executable='listener',
  16         output='screen'        #ログを端末に出すための設定                                   
  17         )
- 18
- 19     return launch.LaunchDescription([talker, listener])         
+      return launch.LaunchDescription([talker, listener])
+
