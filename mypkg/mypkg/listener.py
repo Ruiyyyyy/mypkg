@@ -1,3 +1,4 @@
+cat << 'EOF' > ~/ros2_ws/src/mypkg/mypkg/listener.py
 import rclpy
 from person_msgs.msg import Person
 from rclpy.node import Node
@@ -24,3 +25,4 @@ def main():
     node = AlertListener()
     rclpy.spin(node)
     rclpy.shutdown()
+EOF

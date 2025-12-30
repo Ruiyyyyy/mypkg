@@ -1,3 +1,4 @@
+cat << 'EOF' > ~/ros2_ws/src/mypkg/mypkg/talker.py
 import random
 
 import rclpy
@@ -27,3 +28,4 @@ def main():
     node = SensorTalker()
     rclpy.spin(node)
     rclpy.shutdown()
+EOF
