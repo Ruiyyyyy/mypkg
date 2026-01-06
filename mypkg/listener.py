@@ -8,13 +8,14 @@ class AlertListener(Node):
         self.sub = self.create_subscription(Int16, 'sensor_data', self.cb, 10)
 
     def cb(self, msg):
-        status = '異常なし'
+        status = 'Normal'
         if msg.data > 80:
-            status = '警告！'
+            status = 'Alert'
         elif msg.data > 40:
-            status = '注意'
-
-        self.get_logger().info(f'通知: 状態: {status} ({msg.data})')
+            status = 'Warning'
+        
+        # 日本語をやめて英語にします
+        self.get_logger().info(f'Listen: {status} ({msg.data})')
 
 def main():
     rclpy.init()

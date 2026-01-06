@@ -1,7 +1,7 @@
-import random
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import Int16
+import random
 
 class SensorTalker(Node):
     def __init__(self):
@@ -13,7 +13,8 @@ class SensorTalker(Node):
         msg = Int16()
         msg.data = random.randint(0, 100)
         self.pub.publish(msg)
-        self.get_logger().info(f'監視中: レベル {msg.data} を検知')
+        # 日本語をやめて英語にします
+        self.get_logger().info(f'Talker: {msg.data}')
 
 def main():
     rclpy.init()
