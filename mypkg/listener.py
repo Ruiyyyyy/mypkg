@@ -15,7 +15,6 @@ class AlertListener(Node):
         elif msg.data > 40:
             status = 'Warning'
         
-        # 日本語をやめて英語にします
         self.get_logger().info(f'Listen: {status} ({msg.data})')
 
 def main():
