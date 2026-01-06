@@ -1,0 +1,26 @@
+name: build_and_test
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build_and_test:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: ros-tooling/setup-ros@v0.7
+        with:
+          required-ros-distributions: jazzy
+
+      - name: Build and Test
+        run: |
+          colcon build --packages-select person_msgs
+          source install/setup.bash
+          chmod +x test.bash
+          ./test.bash
