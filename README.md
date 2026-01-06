@@ -25,7 +25,7 @@ ROS 2 Humble を使用した、簡易的な防犯監視システムを提供す�
 ### ビルド
 ワークスペースのルートディレクトリで以下のコマンドを実行します。
 ```bash
-$colcon build --packages-select mypkg
+$ colcon build --packages-select mypkg
 $ source install/setup.bash
 ```
 ##launch
