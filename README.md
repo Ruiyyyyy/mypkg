@@ -1,22 +1,29 @@
 # mypkg
+[![test](https://github.com/Ruiyyyyy/mypkg/actions/workflows/build_and_test.yml/badge.svg)](https://github.com/Ruiyyyyy/mypkg/actions/workflows/build_and_test.yml)
 
-このパッケージは、ROS 2 Humble を使用した簡易的な防犯監視システムです。
-センサーが検知した異常レベルに応じて、適切な警告を表示します。
+ROS 2 Humble を使用した、簡易的な防犯監視システムを提供するパッケージです。
+センサーが検知した異常レベル（数値）に応じて、適切な警告メッセージをパブリッシュします。
 
 ## 概要
-- talker :各部屋の監視を行い、異常レベルを配信します。
-- listener :受信した異常レベルに基づき、ユーザーへの警告メッセージを表示します。
+本パッケージは、各部屋の監視を行うセンサーノードと、異常レベルに応じて警告を表示する受信ノードで構成されています。
+0〜100の数値をランダムに生成し、その値（異常レベル）に応じて「異常なし」「注意」「警告！」のステータスを判定してログに出力します。
+
+## ノードとトピック
+### sensor_talker (talker)
+各部屋を監視するセンサーを模したノードです。2秒ごとにランダムな数値を生成し、トピックへ送信します。
+- パブリッシュ先: `sensor_data` [std_msgs/Int16]
+  - 内容: 0〜100の整数（異常レベル）
+
+### alert_listener (listener)
+センサーからのデータを受信し、レベルに応じた警告を行うノードです。
+- サブスクライブ先: `sensor_data` [std_msgs/Int16]
+- 動作:
+  - レベル 80超: 「警告！」
+  - レベル 40超: 「注意」
+  - それ以外: 「異常なし」
 
 ## 実行方法
-- 配信側: ros2 run mypkg talkeri
-- 受信側: ros2 run mypkg listener
-
-## 必要な環境
-- Linux環境
-- Python 3.10.x
-- ROS2 Humble
-
-## ライセンス
-- このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許
-可されます．
-- © 2025 Ryu Taniguchi
+### ビルド
+ワークスペースのルートディレクトリで以下のコマンドを実行します。
+```bash
+$colcon build --packages-select mypkg$ source install/setup.bash
