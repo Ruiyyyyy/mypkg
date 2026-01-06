@@ -14,7 +14,6 @@ class SensorTalker(Node):
         msg = Int16()
         msg.data = random.randint(0, 100)
         self.pub.publish(msg)
-        # 日本語をやめて英語にします
         self.get_logger().info(f'Talker: {msg.data}')
 
 def main():
