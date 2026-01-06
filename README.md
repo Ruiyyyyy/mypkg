@@ -28,7 +28,7 @@ ROS 2 Humble を使用した、簡易的な防犯監視システムを提供す�
 $ colcon build --packages-select mypkg
 $ source install/setup.bash
 ```
-##launch
+## launch
 - 機能
 talkerとlistenerを同時に実行します
 - 実行方法
