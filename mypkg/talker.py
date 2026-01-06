@@ -1,24 +1,19 @@
-talker.py
-
 import random
-
-from person_msgs.msg import Person
 import rclpy
 from rclpy.node import Node
+from std_msgs.msg import Int16
 
 class SensorTalker(Node):
     def __init__(self):
         super().__init__('sensor_talker')
-        self.pub = self.create_publisher(Person, 'sensor_data', 10)
+        self.pub = self.create_publisher(Int16, 'sensor_data', 10)
         self.timer = self.create_timer(2.0, self.timer_callback)
 
     def timer_callback(self):
-        msg = Person()
-        locations = ['玄関', 'リビング', 'ベランダ', '窓']
-        msg.name = random.choice(locations)
-        msg.age = random.randint(0, 100)
+        msg = Int16()
+        msg.data = random.randint(0, 100)
         self.pub.publish(msg)
-        self.get_logger().info(f'監視中: {msg.name} でレベル {msg.age} を検知')
+        self.get_logger().info(f'監視中: レベル {msg.data} を検知')
 
 def main():
     rclpy.init()
