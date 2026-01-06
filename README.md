@@ -31,7 +31,7 @@ $ source install/setup.bash
 ## launch
 - 機能
 
-talkerとlistenerを同時に実行します
+  talkerとlistenerを同時に実行します
 
 - 実行方法
 ```bash
