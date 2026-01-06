@@ -26,6 +26,12 @@ ROS 2 Humble を使用した、簡易的な防犯監視システムを提供す�
 ワークスペースのルートディレクトリで以下のコマンドを実行します。
 ```bash
 $colcon build --packages-select mypkg$ source install/setup.bash
+```
+##launch
+- 機能
+talkerとlistenerを同時に実行します
+- 実行方法
+```bash
 $ ros2 launch mypkg talk_listen.launch.py
 ```
 
