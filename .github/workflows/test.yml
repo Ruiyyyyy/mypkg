@@ -20,7 +20,7 @@ jobs:
 
       - name: Build and Test
         run: |
-          colcon build --packages-select person_msgs
+          colcon build --packages-select mypkg
           source install/setup.bash
-          chmod +x test.bash
-          ./test.bash
+          chmod +x test/test.bash
+          ./test/test.bash
