@@ -9,13 +9,12 @@ ROS 2 Humble を使用した、簡易的な防犯監視システムを提供す�
 0〜100の数値をランダムに生成し、その値（異常レベル）に応じて「異常なし」「注意」「警告！」のステータスを判定してログに出力します。
 
 ## ノードとトピック
-### sensor_talker (talker)
+### talker
 各部屋を監視するセンサーを模したノードです。2秒ごとにランダムな数値を生成し、トピックへ送信します。
 - パブリッシュ先: `sensor_data` [std_msgs/Int16]
   - 内容: 0〜100の整数（異常レベル）
 
-### alert_listener (listener)
-センサーからのデータを受信し、レベルに応じた警告を行うノードです。
+### listener)センサーからのデータを受信し、レベルに応じた警告を行うノードです。
 - サブスクライブ先: `sensor_data` [std_msgs/Int16]
 - 動作:
   - レベル 80超: 「警告！」
@@ -27,3 +26,14 @@ ROS 2 Humble を使用した、簡易的な防犯監視システムを提供す�
 ワークスペースのルートディレクトリで以下のコマンドを実行します。
 ```bash
 $colcon build --packages-select mypkg$ source install/setup.bash
+$ ros2 launch mypkg talk_listen.launch.py
+
+## 必要なソフトウェア
+- Python 3.10.x
+- ROS2 Humble Hawksbill
+- Ubuntu 22.04 LTS
+
+## ライセンス
+- このソフトウェアパッケージは、3条項BSDライセンス（3-Clause BSD License）の下、再頒布および使用が許可されます。
+- © 2025 Ryu Taniguchi
+
