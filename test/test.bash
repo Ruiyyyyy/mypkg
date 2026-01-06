@@ -9,7 +9,7 @@ ng () {
 
 res=0
 
-source /opt/ros/jazzy/setup.bash
+source /opt/ros/humble/setup.bash
 
 colcon build --packages-select mypkg || ng "$LINENO"
 source install/setup.bash
