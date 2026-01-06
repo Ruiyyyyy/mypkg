@@ -27,6 +27,7 @@ ROS 2 Humble を使用した、簡易的な防犯監視システムを提供す�
 ```bash
 $colcon build --packages-select mypkg$ source install/setup.bash
 $ ros2 launch mypkg talk_listen.launch.py
+```
 
 ## 必要なソフトウェア
 - Python 3.10.x
