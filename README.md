@@ -14,7 +14,7 @@ ROS 2 Humble を使用した、簡易的な防犯監視システムを提供す�
 - パブリッシュ先: `sensor_data` [std_msgs/Int16]
   - 内容: 0〜100の整数（異常レベル）
 
-### listener)センサーからのデータを受信し、レベルに応じた警告を行うノードです。
+### listenerセンサーからのデータを受信し、レベルに応じた警告を行うノードです。
 - サブスクライブ先: `sensor_data` [std_msgs/Int16]
 - 動作:
   - レベル 80超: 「警告！」
@@ -22,8 +22,6 @@ ROS 2 Humble を使用した、簡易的な防犯監視システムを提供す�
   - それ以外: 「異常なし」
 
 ## 実行方法
-### ビルド
-ワークスペースのルートディレクトリで以下のコマンドを実行します。
 ```bash
 $ colcon build --packages-select mypkg
 $ source install/setup.bash
