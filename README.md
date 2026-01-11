@@ -1,5 +1,5 @@
 # mypkg
-[![test](https://github.com/Ruiyyyyy/mypkg/actions/workflows/build_and_test.yml/badge.svg)](https://github.com/Ruiyyyyy/mypkg/actions/workflows/build_and_test.yml)
+[![build_and_test](https://github.com/Ruiyyyyy/mypkg/actions/workflows/test.yml/badge.svg)](https://github.com/Ruiyyyyy/mypkg/actions/workflows/test.yml)[![test](https://github.com/Ruiyyyyy/mypkg/actions/workflows/build_and_test.yml/badge.svg)]
 
 ROS 2 Humble を使用した、簡易的な防犯監視システムを提供するパッケージです。
 センサーが検知した異常レベル（数値）に応じて、適切な警告メッセージをパブリッシュします。
