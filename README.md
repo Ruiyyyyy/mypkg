@@ -45,7 +45,7 @@ $ ros2 launch mypkg talk_listen.launch.py
 - 別のターミナルを開き以下のコマンドで警告メッセージがパブリッシュされているか確認できます。
 
 ```bash
-$source install/setup.bash
+$ source install/setup.bash
 $ ros2 topic echo /alert_status
 ```
 
