@@ -41,6 +41,14 @@ $ source install/setup.bash
 $ ros2 launch mypkg talk_listen.launch.py
 ```
 
+## 動作確認
+- 別のターミナルを開き以下のコマンドで警告メッセージがパブリッシュされているか確認できます。
+
+```bash
+$source install/setup.bash
+$ ros2 topic echo /alert_status
+```
+
 ## 必要なソフトウェア
 - Python 3.10.x
 - ROS2 Humble Hawksbill
